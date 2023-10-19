@@ -1,5 +1,15 @@
 //~~
 
+const showValidationValue = (valueInput, valueOutput) => {
+	if (valueInput == valueOutput) {
+		// return valueInput
+		console.log(valueInput)
+	} else {
+		// return `Значение ${valueInput} не равно ${valueOutput}`
+		console.log(`Значение ${valueInput} не равно ${valueOutput}`)
+	}
+}
+
 /*
 Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
 
@@ -21,15 +31,6 @@ Input: 123456789 Output: 987654321
 
 Ввод: 123456789 Вывод: 987654321
 */
-const showValidationValue = (valueInput, valueOutput) => {
-	if (valueInput == valueOutput) {
-		// return valueInput
-		console.log(valueInput)
-	} else {
-		// return `Значение ${valueInput} не равно ${valueOutput}`
-		console.log(`Значение ${valueInput} не равно ${valueOutput}`)
-	}
-}
 
 class MySort {
 	constructor(num) {

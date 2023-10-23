@@ -9,13 +9,14 @@ const showValidationValue = (valueInput, valueOutput) => {
 	} else {
 		// return `Значение ${valueInput} не равно ${valueOutput}`
 		console.log(`Значение ${valueInput} не равно ${valueOutput}`)
-	}	
+	}
 }
 
 /*
-
+	
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
+	
+	
 */
+

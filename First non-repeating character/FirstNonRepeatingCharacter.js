@@ -56,7 +56,7 @@ function firstNonRepeatingLetter_Two(str) {
 	return ''
 }
 
-console.log(firstNonRepeatingLetter_Three('a'), 'a')
-console.log(firstNonRepeatingLetter_Three('stress'), 't')
-console.log(firstNonRepeatingLetter_Three('sTreSS'), 'T')
-console.log(firstNonRepeatingLetter_Three('moonmen'), 'e')
+console.log(firstNonRepeatingLetter_Two('a'), 'a')
+console.log(firstNonRepeatingLetter_Two('stress'), 't')
+console.log(firstNonRepeatingLetter_Two('sTreSS'), 'T')
+console.log(firstNonRepeatingLetter_Two('moonmen'), 'e')
